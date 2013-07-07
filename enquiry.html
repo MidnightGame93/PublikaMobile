@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Enquiry</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<link href='http://fonts.googleapis.com/css?family=Belgrano|Chelsea+Market' rel='stylesheet' type='text/css'>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<link href="css/myphone.css" rel="stylesheet" type="text/css">
+<!-- Media Query 2 -->
+<link href="css/mytablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:640px) and (max-width:1024px)">
+<!-- Media Query 1 -->
+<link href="css/myphone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:639px)">
+<link rel="stylesheet" href="themes/publika_theme.min.css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div data-role="page" id="enquiry" data-theme="a">
+
+	  <div data-role="panel" id="mypanel" class="ui-responsive" data-theme="a" data-display="push">
+	  
+          <ul data-role="listview" data-inset="false" data-icon="star">
+              <li><a href="index.html" rel="external">Home</a></li>
+              <li><a href="events.html" rel="external">Events</a></li>
+              <li><a href="gallery.html" rel="external">Photo Gallery</a></li>
+              <li><a href="enquiry.html" rel="external">Enquiry</a></li>
+              <li><a href="maps.html" rel="external">Maps</a></li>
+          </ul>
+              
+	  </div>
+
+      <div id="bg">
+        
+            <div data-role="header" >
+            
+                 <a href="#mypanel" data-role="button" data-icon="grid">Menu</a>
+                 
+                <h1>Enquiry</h1>
+            
+      		</div>
+  
+            <div data-role="content" >
+      
+                 <div class="hometextwrap">  
+      
+                    <h1> Have anything to ask us? </h1>
+                      
+                    <img class="img" src="images/Enquiry.png" width="2876" height="2804">
+                    
+                    <p> Do you have any questions about our mall or our creative retail? Was there something you particularly liked or disliked? </p>
+                    
+                    <p>Feel free to leave your questions and comments down below and we'll get back to you as soon as possible. We do accept criticism and will attempt to improve in any way we can.</p>  
+                    
+                    <p>We'll get back to you within 7 working days from the date of enquiry submission (This is not accountable for public holidays and weekends).</p>
+                    
+                    
+                  </div>
+                  
+                   	<div class="hometextwrap">     
+                        
+                          <form>
+                            <div data-role="fieldcontain">
+                              <label for="name">Name:</label>
+                              <input name="name" type="text" id="name" value="" maxlength="45" />
+                            </div>
+                            
+                            <div data-role="fieldcontain">
+                              <label for="email">E-mail:</label>
+                              <input type="text" name="email" id="email" value=""  />
+                            </div>
+                            
+                            <div data-role="fieldcontain">
+                              <label for="selectQuestion" class="select">Options:</label>
+                              <select name="selectQuestion" id="selectQuestion">
+                                <option>Choose a topic:</option>
+                                <option value="White Box">White Box</option>
+                                <option value="Black Box">Black Box</option>
+                                <option value="Art Row">Art Row</option>
+                              </select>
+                            </div>
+                            
+                            <div data-role="fieldcontain">
+                              <label for="question">What would you like to know about?:</label>
+                              <input type="text" name="question" id="question" value=""  />
+                            </div>
+                              <input type="submit" value="Submit!" data-icon="check" data-iconpos="right"/>
+                          </form>
+                          
+                  </div>      
+                      
+            </div>
+                      
+            <div data-role="footer" >
+                      
+                <h4>Copyright &copy; Publika 2013</h4>
+                            
+            </div>
+  
+      </div>
+      
+</div>
+
+</body>
+</html>

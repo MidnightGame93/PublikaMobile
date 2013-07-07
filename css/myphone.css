@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+img {
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	max-width:100%;
+	display: block;
+}
+#homeone {
+	background-color: #C80F5F;
+	height: auto;
+	width: auto;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	opacity: 0.7;
+	border: thick solid #609;
+	
+}
+#homeone p {
+	letter-spacing: 0;
+	color: #FFF;
+	padding: 10px;
+	font-size: 15px;
+	font-family: 'Orienta', sans-serif;
+	
+}
+.imgresize {
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
+
+
+
+.title {
+	font-size: 2em;
+	font-size: 3em;
+	font-weight: bold;
+	color: #C10F5C;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+#events h2 {
+	font-size: 2em;
+	color: #C70F5E;
+	font-family: 'Orienta', sans-serif;
+}
+
+.eventgallery {
+	font-size: 2em;
+	color: #C00F5B;
+	font-weight: bold;
+	text-align: center;
+}
+p {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 15px;
+	color: #000;
+	font-weight: lighter;
+	text-align: justify;
+}
+#bg {
+	background-color: #FFFFEA;
+	background-image: url(../images/grunge%20background2.jpg);
+	background-repeat: repeat;
+
+
+}
+
+
+.hometextwrap {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.hometextwrap2 {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.formwrap {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	
+}
+
+.thegallerywrap {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
